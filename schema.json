@@ -1,0 +1,61 @@
+{
+  "basics": {
+    "name": "@philt3r",
+    "label": "Engineer, Developer, Leader",
+    "picture": "profile.png",
+    "email": "me@philt3r.rocks",
+    "phone": "+61 417 301 024",
+    "website": "http://philt3r.rocks",
+    "bio": "@philt3r is not a metaphor for a side affect, but rather a side affect of a metamorphosis. For a decade, he has planted smiles and swivelled dials along that great stretch of party paradise that is the east-coast of Australia. @philt3r’s sets started out spanning more genres than a well thought out German street parade, but now it's techno, phat, dark, dystopic TECHNO!\n@philt3r can read a crowd better than airport security, and take them further up than their overpriced tickets. But that's what we like about @philt3r, his lack of tickets on himself.\nSo get your 'TECHNO!' on with @philt3r at your next attempt to escape reality!",
+    "promo": "TECHNO",
+    "location": {
+      "address": "",
+      "postalCode": "3148",
+      "city": "Melbourne",
+      "countryCode": "AU",
+      "region": "Victoria"
+    },
+    "profiles": [
+      {
+        "network": "Soundcloud",
+        "username": "@philt3r",
+        "url": "https://soundcloud.com/philt3r"
+      },
+      {
+        "network": "Mixcloud",
+        "username": "@philt3r",
+        "url": "https://www.mixcloud.com/philt3r/"
+      }
+    ]
+  },
+  "highlight": "Get a dose of Techno with @philt3r.",
+  "mixes": [
+    "https://www.mixcloud.com/widget/iframe/?feed=%2Fphilt3r%2Fbabylon-application-2019%2F",
+    "https://www.mixcloud.com/widget/iframe/?feed=%2Fphilt3r%2Flive-party-my-aeon%2F",
+    "https://www.mixcloud.com/widget/iframe/?feed=%2Fphilt3r%2Fsnake-pit-sound-session-backstage-at-esoteric%2F",
+    "https://www.mixcloud.com/widget/iframe/?feed=%2Fphilt3r%2Facid-punk-techno-junk-may-2019%2F",
+    "https://www.mixcloud.com/widget/iframe/?feed=%2Fphilt3r%2Fequinox-2019-rainbird-ep-launch%2F"
+  ],
+  "videos": [
+    "https://www.youtube.com/embed/4RJMS2lItM4",
+    "https://www.youtube.com/embed/WCLP6z30oDI",
+    "https://www.youtube.com/embed/bhuFOsm9y8M",
+    "https://www.youtube.com/embed/Gq0DOqtu9o8"
+  ],
+  "releases": [
+    {
+      "title": "Conscious Bubble",
+      "genre": "Techno",
+      "src": "https://bandcamp.com/EmbeddedPlayer/album=459552727/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/",
+      "label": "Omtap Music",
+      "date": "2016"
+    },
+    {
+      "title": "Full Circle",
+      "genre": "Progressive Psytrance",
+      "src": "https://bandcamp.com/EmbeddedPlayer/album=1444226974/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/",
+      "label": "Omtap Music",
+      "date": "2016"      
+    }
+  ]
+}

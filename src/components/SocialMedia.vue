@@ -1,39 +1,27 @@
 <template>
   <div>
-    <v-dialog v-model="dialog" v-for="(item, i) in items.slice(0, large ? items.length : 3)" :key="i" :fullscreen="$vuetify.breakpoint.mdAndDown" :hide-overlay="$vuetify.breakpoint.mdAndDown" width="500" transition="dialog-bottom-transition">
-      <template v-slot:activator="{ on }">
-          <v-btn icon v-on="on" fab class="ma-2" :large="large" color="info">
-          <v-icon>{{item.icon}}</v-icon>
-          </v-btn>
-      </template>
-      <v-card>
-          <v-toolbar dark color="primary">
-          <v-btn icon dark @click="dialog = false">
-              <v-icon>mdi-close</v-icon>
-          </v-btn>
-          <v-toolbar-title>Contact Details</v-toolbar-title>
-          </v-toolbar>
-      </v-card>
-    </v-dialog>
+    <contact-dialog v-for="contact in contacts" :key="contact.name" :name="contact.name" :icon="contact.icon" :value="contact.value"></contact-dialog>
   </div>
 </template>
 
 <script>
+import ContactDialog from './ContactDialog.vue'
 export default {
+  components: { ContactDialog },
   props: {
     large: {
       type: Boolean,
       default: false
     }
-  },  
+  },
 
   data: () => ({
     dialog: false,
-    items: [
+    contacts: [
       {
         name: 'Facebook',
         icon: 'mdi-facebook',
-        value: 'https://www.facebook.com/philip.beadle'
+        value: 'fb/philip.beadle'
       },
       {
         name: 'Email',
@@ -41,7 +29,7 @@ export default {
         value: 'me@philt3r.rocks'
       },
       {
-        name: 'Phone',
+        name: 'SMS',
         icon: 'mdi-phone',
         value: '+61 417 301 024'
       }

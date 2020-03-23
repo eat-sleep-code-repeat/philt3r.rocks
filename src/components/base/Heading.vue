@@ -1,7 +1,7 @@
 <template>
   <component
     :is="tag"
-    :class="[$vuetify.breakpoint.smAndDown ? 'display-2': 'display-3']" 
+    :class="[$vuetify.breakpoint.smAndDown ? 'display-2': 'display-3']"
     class="v-heading mb-3 font-weight-light"
   >
     <slot />

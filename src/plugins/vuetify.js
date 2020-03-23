@@ -1,13 +1,20 @@
 import Vue from 'vue'
-import Vuetify from 'vuetify'
-import 'vuetify/dist/vuetify.min.css'
+import Vuetify, { VLayout } from 'vuetify/lib'
 
 Vue.use(Vuetify, {
+  components: {
+    VLayout
+  }
+})
+
+export default new Vuetify({
   theme: {
-    primary: '#D3C3BC',
-    secondary: '#BFADA5',
-    accent: '#D8EBF1',
-    info: '#5B5C79'
-  },
-  iconfont: 'mdi'
+    dark: true,
+    themes: {
+      dark: {
+        primary: '#5c007a',
+        accent: '#FFD277'
+      }
+    }
+  }
 })
